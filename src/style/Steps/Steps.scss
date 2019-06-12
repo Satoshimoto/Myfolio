@@ -1,0 +1,19 @@
+.steps_section {
+    max-width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+
+    .step_section_mainHeader {
+        margin: 70px 0px;
+        flex-basis: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 800px) {
+    .steps_section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

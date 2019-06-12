@@ -1,0 +1,67 @@
+@import './StepsContainers.scss';
+
+.stepFour_mainContainer {
+    p {
+        width: 100%;
+    }
+
+    .fillPage_section_StepFourContainer {
+        width: 80%;
+        margin: 15px auto;
+        border: 3px solid #29303b;
+        padding: 5%;
+        position: relative;
+
+        .stepFour_deleteBtn {
+            @include closeBtn;
+        }
+
+        .stepFour_skill {
+            margin-top: 40px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+
+        .stepFour_level {
+            margin-top: 20px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .stepFour_mainContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        h3 {
+            width: 100%;
+        }
+
+        .fillPage_section_StepFourContainer {
+            width: 35%;
+        }
+    }
+}

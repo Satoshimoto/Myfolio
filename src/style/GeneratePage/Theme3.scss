@@ -1,0 +1,172 @@
+.generatePage_theme3_section {
+    width: 794px;
+    min-height: 1122px;
+    background-color: white;
+    position: absolute;
+    top: 230px;
+
+
+    .theme3_headerContainer {
+        width: 100%;
+        height: 260px;
+        position: relative;
+
+        .darkGreen_container {
+            height: 75%;
+            background-color: #2b4243;
+
+            h1 {
+                color: white;
+                margin-left: 280px;
+                padding-top: 50px;
+                margin-bottom: 0px;
+                margin-top: 0px;
+            }
+
+            p {
+                color: rgb(245, 127, 30);
+                font-weight: bold;
+                font-style: italic;
+                margin-left: 280px;
+                margin-top: 10px;
+            }
+        }
+
+        .orange_container {
+            height: 25%;
+            background-color: rgb(245, 127, 30);
+        }
+
+        img {
+            position: absolute;
+            top: 5%;
+            left: 5%;
+            display: block;
+            border: 5px solid white;
+        }
+    }
+
+    // Context
+    .theme3_context {
+        width: 100%;
+        display: flex;
+        padding-top: 70px;
+
+        .theme3_contactHobby {
+            width: 35%;
+            border-right: 2px solid black;
+
+            h2 {
+                text-align: center;
+                font-weight: bold;
+                color: rgb(31, 153, 224);
+            }
+
+
+            .contact {
+                width: 100%;
+                display: inline-block;
+                line-height: 30px;
+
+                .circle_contactIcon {
+                    width: 30px;
+                    height: 30px;
+                    display: block;
+                    text-align: center;
+                    background-color: black;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    margin: 25px 0px 15px 25px;
+
+                    i {
+                        line-height: 30px;
+                        color: white;
+                    }
+                }
+            }
+
+
+            .hobby_header {
+                margin-top: 80px;
+                margin-bottom: 30px;
+            }
+
+            .hobby_ul {
+                li {
+                    margin-left: 10px;
+                    margin-bottom: 10%;
+                }
+            }
+        }
+
+        .theme3_experience {
+            width: 65%;
+            margin-bottom: 130px;
+
+            .experience_header {
+                .headers {
+                    margin-top: 20px;
+                    margin-left: 40px;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    border-bottom: 3px solid rgb(31, 153, 224);
+                    padding-bottom: 10px;
+                    color: rgb(31, 153, 224);
+                }
+
+                .ul_experience {
+                    margin-top: 35px;
+                    margin-left: 20px;
+
+                    .borderBottom {
+                        border-bottom: 1px solid rgb(245, 127, 30);
+                    }
+
+
+                    li {
+                        width: 90%;
+                        padding: 2%;
+                        margin-top: 20px;
+                        line-height: 25px;
+
+                        .experience_spanDate {
+                            font-weight: bold;
+                            font-style: italic;
+                            margin-right: 25px;
+                            color: rgb(245, 127, 30);
+                            padding: 10px 10px 10px 0px;
+                        }
+
+                        .experience_span {
+                            font-weight: bold;
+                            font-style: italic;
+                            display: inline-block;
+                            margin-right: 30px;
+                            color: rgb(245, 127, 30);
+                            margin-bottom: 0px;
+
+
+                            span {
+                                font-weight: normal;
+                                font-style: normal;
+                                color: black;
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .calusele {
+        padding: 5%;
+        background-color: #2b4243;
+        color: white;
+        position: absolute;
+        bottom: 0%;
+    }
+}

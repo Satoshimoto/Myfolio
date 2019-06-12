@@ -1,0 +1,89 @@
+.fillPage_section {
+    background-color: #29303b;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    .fillPage_section_container {
+        width: 80%;
+        max-width: 1000px;
+        border: 10px solid #c74732;
+        margin: 0px auto;
+        text-align: center;
+        background-color: #ddd;
+        display: block;
+        height: 90%;
+        padding: 20px;
+
+
+
+        ::placeholder {
+            color: #ddd;
+        }
+
+        .fillPage_section_arrowsContainer {
+            width: calc(100% - 60px);
+            margin: 30px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .addBtn {
+        width: 90%;
+        margin: 10px auto;
+        color: rgb(22, 182, 22);
+        border: 2px solid rgb(22, 182, 22);
+        cursor: pointer;
+
+        p {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        div {
+            display: inline-block;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 400px) {
+    .fillPage_section {
+        .fillPage_section_container {
+            .fillPage_section_arrowsContainer {
+                width: 50%;
+                margin-left: 25%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 750px) {
+    .fillPage_section {
+        .fillPage_section_container {
+            .fillPage_section_arrowsContainer {
+                width: 30%;
+                margin-left: 35%;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    .fillPage_section {
+        .fillPage_section_container {
+            .fillPage_section_arrowsContainer {
+                width: 20%;
+                margin-left: 40%;
+            }
+        }
+    }
+}

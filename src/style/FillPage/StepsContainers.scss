@@ -1,0 +1,61 @@
+@mixin stepContainers {
+    width: 25px;
+    height: 21px;
+    padding: 5px;
+    display: inline-block;
+    line-height: 21px;
+    background-color: #000;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+@mixin stepTextContainer {
+    width: 50%;
+    height: 29px;
+    border: 0px;
+    background-color: gray;
+    color: orange;
+    padding: 1px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+@mixin closeBtn {
+    width: 25px;
+    height: 25px;
+    background-color: crimson;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    line-height: 25px;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+
+
+@mixin mobileTextContainer {
+    width: 70%;
+    height: 29px;
+    border: 0px;
+    background-color: gray;
+    color: orange;
+    padding: 1px 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    margin: 0px;
+    font-size: 12px;
+    line-height: 29px;
+}

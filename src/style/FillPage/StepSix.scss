@@ -1,0 +1,43 @@
+.fillPage_section_stepSixContainer {
+    padding: 40px 10% 0% 10%;
+
+    h3 {
+        color: #2b990d;
+    }
+
+    .stepSix_generateCvBtn {
+        background-color: #3b4f6d;
+        display: inline-block;
+        color: white;
+        padding: 10px 20px;
+        margin: 20px 0px;
+        text-decoration: none;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        cursor: pointer;
+    }
+
+
+
+    .stepSix_clearDateBtn {
+        background-color: rgba(139, 27, 96, 0.699);
+        display: inline-block;
+        color: white;
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        cursor: pointer;
+    }
+
+    .stepSix_clearDateMessage {
+        color: green;
+        display: none;
+    }
+}

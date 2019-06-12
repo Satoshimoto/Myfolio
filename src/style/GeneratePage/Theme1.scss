@@ -1,0 +1,298 @@
+$bcgColor: rgb(223, 86, 86);
+
+.generatePage_theme1_section {
+    width: 794px;
+    min-height: 1122px;
+    background-color: white;
+    position: absolute;
+    top: 230px;
+    display: flex;
+
+
+    .blueElement {
+        width: 35%;
+        min-height: 100%;
+        background-color: $bcgColor;
+        position: relative;
+        border: 0px solid;
+        margin-right: -2px;
+
+
+        .box_whiteBorder {
+            display: block;
+            margin-top: 34.2%;
+            width: 102%;
+            height: 60px;
+            border-top: 2px solid white;
+            border-bottom: 2px solid white;
+            margin-bottom: 20%;
+        }
+
+        .imageElement {
+            position: absolute;
+            top: 1%;
+            left: 50%;
+            width: 80%;
+            height: 222px;
+            display: block;
+            background-color: white;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            overflow: hidden;
+            transform: translate(-50%, -2%);
+            -webkit-transform: translate(-50%, -2%);
+            -moz-transform: translate(-50%, -2%);
+            -ms-transform: translate(-50%, -2%);
+            -o-transform: translate(-50%, -2%);
+
+            img {
+                z-index: 3;
+                display: block;
+                margin: 0px auto;
+            }
+        }
+
+        .name_surname {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+            margin-top: 130px;
+            margin-bottom: 15px;
+        }
+
+        .position {
+            text-align: center;
+            color: white;
+            margin: 0px;
+        }
+
+        .personal_Info {
+            h3 {
+                color: white;
+                width: 80%;
+                margin: 40% 10% 10%;
+                position: relative;
+                font-size: 22px;
+
+            }
+
+            h3::before {
+                content: '_______________________';
+                color: white;
+                display: inline-block;
+                position: absolute;
+                top: 20%;
+
+            }
+
+            .personal_container {
+                width: 80%;
+                margin: 5% 10%;
+
+                div {
+                    margin-top: 20px;
+                    width: 25px;
+                    height: 25px;
+                    display: inline-block;
+                    text-align: center;
+                    background-color: white;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    margin-right: 15px;
+                    position: relative;
+                }
+
+                // i {
+                //     line-height: 25px;
+                //     color: $bcgColor;
+                // }
+
+                img {
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                }
+
+
+
+            }
+        }
+
+        .hobby_Info {
+
+            h3 {
+                color: white;
+                width: 80%;
+                margin: 40% 10% 10%;
+                position: relative;
+                font-size: 22px;
+            }
+
+            h3::before {
+                content: '_______________________';
+                color: white;
+                display: inline-block;
+                position: absolute;
+                top: 20%;
+
+            }
+
+            ul {
+                li {
+                    margin-top: 15px;
+                    color: white;
+                    text-transform: lowercase;
+                    line-height: 20px;
+                }
+
+                li::first-letter {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    .contentElement {
+        width: 65%;
+        min-height: 100%;
+        position: relative;
+
+
+        .phone_email_container {
+
+            background-color: $bcgColor;
+            margin-top: 17%;
+            border-top: 7px solid $bcgColor;
+            border-bottom: 7px solid $bcgColor;
+            margin-right: -2px;
+
+
+            .phone {
+                width: 30%;
+                padding-left: 5%;
+                display: inline-block;
+                text-align: center;
+                border-bottom: 2px solid white;
+                border-top: 2px solid white;
+                height: 60.5px;
+
+                .circle_phoneIcon {
+                    margin-top: 16px;
+                    width: 30px;
+                    height: 30px;
+                    display: inline-block;
+                    text-align: center;
+                    background-color: white;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    margin-right: 15px;
+                    position: relative;
+
+                    img {
+                        display: inline-block;
+                        position: absolute;
+                        top: 20%;
+                        left: 20%;
+                    }
+                }
+
+
+            }
+
+            .email {
+                width: 65%;
+                display: inline-block;
+                text-align: center;
+                border-bottom: 2px solid white;
+                border-top: 2px solid white;
+                height: 60.5px;
+                position: relative;
+
+                .circle_emailIcon {
+                    margin-top: 16px;
+                    width: 30px;
+                    height: 30px;
+                    display: inline-block;
+                    text-align: center;
+                    background-color: white;
+                    border-radius: 50%;
+                    -webkit-border-radius: 50%;
+                    -moz-border-radius: 50%;
+                    -ms-border-radius: 50%;
+                    -o-border-radius: 50%;
+                    margin-right: 15px;
+
+                    img {
+                        display: inline-block;
+                        position: absolute;
+                        top: 44%;
+                        left: 45.5%;
+                    }
+                }
+
+
+            }
+
+        }
+
+        .experience_header {
+            .headers {
+                margin-top: 50px;
+                margin-left: 80px;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                border-bottom: 3px solid $bcgColor;
+                padding-bottom: 10px;
+            }
+
+            .ul_experience {
+                margin-top: 35px;
+                margin-left: 80px;
+
+                li {
+                    width: 90%;
+                    border-bottom: 1px solid $bcgColor;
+                    margin-top: 20px;
+
+                    .experience_spanDate {
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+
+                    .experience_span {
+                        font-weight: bold;
+                        font-style: italic;
+
+                        span {
+                            font-weight: normal;
+                            font-style: normal;
+                        }
+                    }
+                }
+            }
+
+            .skills {
+                padding-bottom: 140px;
+            }
+        }
+    }
+
+    .clausule {
+        width: 80%;
+        position: absolute;
+        margin-top: 50px;
+        bottom: 0%;
+        padding: 0% 10%;
+        background-color: $bcgColor;
+        border-right: 3px solid $bcgColor;
+    }
+}

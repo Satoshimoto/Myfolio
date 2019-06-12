@@ -1,0 +1,126 @@
+@import './StepsContainers.scss';
+
+.stepTwo_mainContainer {
+
+    .fillPage_section_StepTwoContainer {
+        width: 80%;
+        margin: 15px auto;
+        border: 3px solid #29303b;
+        padding: 5%;
+        position: relative;
+
+        .stepTwo_deleteBtn {
+            @include closeBtn;
+        }
+
+        .stepTwo_date {
+            margin-top: 40px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+
+        .stepTwo_company {
+            margin-top: 20px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+
+        .stepTwo_position {
+            margin-top: 20px;
+            margin-bottom: 35px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+    }
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    .stepTwo_mainContainer {
+
+
+        h3 {
+            width: 100%;
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .fillPage_section_StepTwoContainer {
+                width: 35%;
+                margin: 15px;
+
+                .stepTwo_deleteBtn {
+                    width: 25px;
+
+                    i {
+                        margin-top: 4px;
+                    }
+                }
+
+                .stepTwo_date {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+
+                .stepTwo_company {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+
+                .stepTwo_position {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+            }
+        }
+
+
+    }
+}

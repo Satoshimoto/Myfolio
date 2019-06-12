@@ -1,0 +1,157 @@
+.themeSection_section {
+    width: 100%;
+    margin-top: 150px;
+    background-color: #29303b;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: center;
+
+    i {
+        color: #888;
+        width: 25px;
+        height: 25px;
+        font-size: 25px;
+        display: none;
+        position: absolute;
+    }
+
+    .themeSection_section_iconOne {
+        top: 20%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+        -webkit-transform: translate(-10%, -10%);
+        -moz-transform: translate(-10%, -10%);
+        -ms-transform: translate(-10%, -10%);
+        -o-transform: translate(-10%, -10%);
+    }
+
+    .themeSection_section_iconTwo {
+        top: 20%;
+        left: 40%;
+        transform: translate(-40%, -10%);
+        -webkit-transform: translate(-40%, -10%);
+        -moz-transform: translate(-40%, -10%);
+        -ms-transform: translate(-40%, -10%);
+        -o-transform: translate(-40%, -10%);
+    }
+
+    .themeSection_section_iconThree {
+        top: 20%;
+        left: 70%;
+        transform: translate(-70%, -10%);
+        -webkit-transform: translate(-70%, -10%);
+        -moz-transform: translate(-70%, -10%);
+        -ms-transform: translate(-70%, -10%);
+        -o-transform: translate(-70%, -10%);
+    }
+
+    .themeSection_section_iconFour {
+        top: 20%;
+        left: 90%;
+        transform: translate(-90%, -10%);
+        -webkit-transform: translate(-90%, -10%);
+        -moz-transform: translate(-90%, -10%);
+        -ms-transform: translate(-90%, -10%);
+        -o-transform: translate(-90%, -10%);
+    }
+
+    .themeSection_section_iconFive {
+        top: 50%;
+        left: 25%;
+        transform: translate(-25%, -50%);
+        -webkit-transform: translate(-25%, -50%);
+        -moz-transform: translate(-25%, -50%);
+        -ms-transform: translate(-25%, -50%);
+        -o-transform: translate(-25%, -50%);
+    }
+
+    .themeSection_section_iconSix {
+        top: 50%;
+        left: 75%;
+        transform: translate(-75%, -50%);
+        -webkit-transform: translate(-75%, -50%);
+        -moz-transform: translate(-75%, -50%);
+        -ms-transform: translate(-75%, -50%);
+        -o-transform: translate(-75%, -50%);
+    }
+
+
+    .themeSection_section_iconSeven {
+        top: 80%;
+        left: 10%;
+        transform: translate(-10%, -80%);
+        -webkit-transform: translate(-10%, -80%);
+        -moz-transform: translate(-10%, -80%);
+        -ms-transform: translate(-10%, -80%);
+        -o-transform: translate(-10%, -80%);
+    }
+
+    .themeSection_section_iconEight {
+        top: 80%;
+        left: 40%;
+        transform: translate(-40%, -80%);
+        -webkit-transform: translate(-40%, -80%);
+        -moz-transform: translate(-40%, -80%);
+        -ms-transform: translate(-40%, -80%);
+        -o-transform: translate(-40%, -80%);
+    }
+
+    .themeSection_section_iconNine {
+        top: 80%;
+        left: 70%;
+        transform: translate(-70%, -80%);
+        -webkit-transform: translate(-70%, -80%);
+        -moz-transform: translate(-70%, -80%);
+        -ms-transform: translate(-70%, -80%);
+        -o-transform: translate(-70%, -80%);
+    }
+
+    .themeSection_section_iconTen {
+        top: 80%;
+        left: 90%;
+        transform: translate(-90%, -80%);
+        -webkit-transform: translate(-90%, -80%);
+        -moz-transform: translate(-90%, -80%);
+        -ms-transform: translate(-90%, -80%);
+        -o-transform: translate(-90%, -80%);
+    }
+
+    .themeSection_section_header {
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0% 10%;
+        text-align: center;
+    }
+
+    .themeSection_section_button {
+        background-color: #a40329;
+        text-decoration: none;
+        height: 30px;
+        padding: 2px 20px;
+        line-height: 30px;
+        color: white;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 900px) {
+    .themeSection_section {
+        height: 400px;
+
+        i {
+            display: block;
+        }
+    }
+}

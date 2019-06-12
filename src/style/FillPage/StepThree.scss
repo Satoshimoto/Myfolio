@@ -1,0 +1,145 @@
+@import './StepsContainers.scss';
+
+
+.stepThree_mainContainer {
+
+    .fillPage_section_StepThreeContainer {
+        width: 80%;
+        margin: 15px auto;
+        border: 3px solid #29303b;
+        padding: 5%;
+        position: relative;
+
+        .stepThree_deleteBtn {
+            @include closeBtn;
+        }
+
+        .stepThree_date {
+            margin-top: 40px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+
+        .stepThree_school {
+            margin-top: 20px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+
+        .stepThree_title {
+            margin-top: 20px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+
+        .stepThree_way {
+            margin-top: 20px;
+
+            div {
+                @include stepContainers;
+
+                i {
+                    padding-left: 5px;
+                }
+            }
+
+            input {
+                @include stepTextContainer;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .stepThree_mainContainer {
+
+        h3 {
+            width: 100%;
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .fillPage_section_StepThreeContainer {
+                width: 35%;
+                margin: 15px;
+
+                .stepThree_deleteBtn {
+
+                    i {
+                        margin-top: 4px;
+                    }
+                }
+
+                .stepThree_date {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+
+                .stepThree_school {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+
+                .stepThree_title {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+
+                .stepThree_way {
+                    display: flex;
+                    justify-content: center;
+
+                    input {
+                        @include mobileTextContainer
+                    }
+                }
+            }
+        }
+    }
+}

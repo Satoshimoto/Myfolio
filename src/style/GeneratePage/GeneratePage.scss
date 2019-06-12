@@ -1,0 +1,36 @@
+.generatePage_section {
+    max-width: 794px;
+    min-height: 80vh;
+    padding-top: 50px;
+    padding-bottom: 20%;
+    position: relative;
+    overflow: auto;
+    margin: 0px auto;
+
+    .generatePage_section_container {
+        padding-top: 50px;
+        min-width: 200px;
+        height: auto;
+        margin: 0 auto;
+        overflow: auto;
+        display: block;
+
+
+        .saveFile_button {
+            padding: 15px 20px;
+            display: block;
+            margin: 50px auto 0px auto;
+            width: 40%;
+            color: white;
+            background-color: #29303b;
+            text-align: center;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 1px 1px 5px 1px white;
+        }
+    }
+}

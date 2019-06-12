@@ -1,0 +1,18 @@
+.navigation_section_logo {
+    flex-basis: 64px;
+    margin-left: 2%;
+
+    img {
+        width: 64px;
+        height: 40px;
+    }
+}
+
+// ===================== Responsive ================
+
+@media only screen and (min-width:1000px) {
+    .navigation_section_logo {
+        margin-right: 2%;
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,135 @@
+.baner_section_arrowLeft {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    position: absolute;
+    top: 110px;
+    left: 5%;
+    transform: rotate(45deg);
+    text-align: center;
+    border: 2px solid #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 6;
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+
+    i {
+        text-align: center;
+        transform: rotate(-45deg);
+        display: block;
+        margin-top: 7.5px;
+        margin-left: 10;
+        height: 15px;
+        outline: none;
+        -moz-outline: none;
+        -webkit-outline: none;
+    }
+}
+
+.baner_section_arrowRight {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    position: absolute;
+    top: 110px;
+    right: 5%;
+    transform: rotate(45deg);
+    border: 2px solid #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 6;
+
+    i {
+        text-align: center;
+        transform: rotate(-45deg);
+        display: block;
+        margin-top: 7.5px;
+        margin-left: 10;
+        height: 15px;
+        outline: none;
+        -moz-outline: none;
+        -webkit-outline: none;
+    }
+
+}
+
+i:hover,
+i:active {
+    outline: none;
+    -moz-outline: none;
+    -webkit-outline: none;
+}
+
+
+@media only screen and (min-width: 400px) {
+    .baner_section_arrowLeft {
+        top: 135px;
+    }
+
+    .baner_section_arrowRight {
+        top: 135px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .baner_section_arrowLeft {
+        top: 155px;
+    }
+
+    .baner_section_arrowRight {
+        top: 155px;
+    }
+}
+
+
+@media only screen and (min-width: 750px) {
+    .baner_section_arrowLeft {
+        top: 185px;
+    }
+
+    .baner_section_arrowRight {
+        top: 185px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1000px) {
+    .baner_section_arrowLeft {
+        top: 235px;
+    }
+
+    .baner_section_arrowRight {
+        top: 235px;
+    }
+
+
+    .baner_section_arrowRight:hover {
+        transform: rotate(135deg);
+        width: 35px;
+        height: 35px;
+        background-color: #fff;
+
+        i {
+            transform: rotate(-135deg);
+            color: rgb(172, 48, 48);
+        }
+    }
+
+
+    .baner_section_arrowLeft:hover {
+        transform: rotate(-45deg);
+        width: 35px;
+        height: 35px;
+        background-color: #fff;
+
+        i {
+            transform: rotate(45deg);
+            color: rgb(172, 48, 48);
+        }
+    }
+
+}

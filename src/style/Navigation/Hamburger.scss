@@ -1,0 +1,197 @@
+.navigation_section_hamburger {
+    flex-basis: 40px;
+    cursor: pointer;
+    margin-left: auto;
+    padding: 0px 30px;
+
+    .navigation_section_hamburgerSection {
+        position: relative;
+
+        div {
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40%;
+            height: 3px;
+            background-color: #1e1e1e;
+            margin: 4px 0px 4px 0px;
+        }
+
+        .hamburgerSection_first {
+            top: 8px;
+            width: 100%;
+        }
+
+
+        .hamburgerSection_second {
+            top: 16px;
+            width: 100%;
+        }
+
+        .hamburgerSection_third {
+            top: 24px;
+            width: 100%;
+        }
+    }
+}
+
+// ================= Responsive ====================
+
+
+@media only screen and (min-width: 400px) {
+    .navigation_section_hamburger {
+        padding: 0px 40px;
+
+        .navigation_section_hamburgerSection {
+
+            div {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navigation_section_hamburger {
+        .navigation_section_hamburgerSection {
+            flex-basis: 12%;
+            margin-left: 7%;
+
+            div {
+                width: 40%;
+            }
+
+        }
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .navigation_section_hamburger {
+        .navigation_section_hamburgerSection {
+
+            div {
+                width: 32%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 900px) {
+    .navigation_section_hamburger {
+        .navigation_section_hamburgerSection {
+            flex-basis: 7%;
+            margin-left: 11%;
+
+            div {
+                width: 45%;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .navigation_section_hamburger {
+        .navigation_section_hamburgerSection {
+            display: none;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// ================= Animations ===================
+
+
+// Open animation
+
+@keyframes firstLineOpen {
+    0% {
+        transform: rotate(0deg);
+        top: 12px;
+        left: 50%;
+    }
+
+    100% {
+        transform: rotate(45deg);
+        top: 20px;
+        left: 30%;
+    }
+}
+
+
+@keyframes secondLineOpen {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes thirdLineOpen {
+    0% {
+        transform: rotate(0deg);
+        left: 50%;
+        top: 24px;
+    }
+
+    100% {
+        transform: rotate(-45deg);
+        left: 30%;
+        top: 20px;
+    }
+}
+
+// Close animation
+
+@keyframes firstLineClose {
+    0% {
+        transform: rotate(45deg);
+        top: 20px;
+        left: 30%;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        top: 8px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+
+@keyframes secondLineClose {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@keyframes thirdLineClose {
+    0% {
+        transform: rotate(-45deg);
+        left: 30%;
+        top: 20px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        left: 50%;
+        top: 24px;
+        transform: translate(-50%);
+    }
+}

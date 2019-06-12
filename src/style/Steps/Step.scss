@@ -1,0 +1,45 @@
+.steps_section_stepContainer {
+    width: 100%;
+    margin-bottom: 70px;
+
+    .steps_section_stepHeader {
+        font-size: 20px;
+        color: black;
+    }
+
+    .steps_section_image {
+        width: 80%;
+        margin: 0% 10%;
+        height: auto;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .steps_section_stepContainer {
+        .steps_section_image {
+            width: 50%;
+            margin: 0% 25%;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+    .steps_section_stepContainer {
+        width: calc(100%/3);
+        margin-bottom: 0px;
+
+        .steps_section_image {
+            width: 50%;
+            margin: 0% 5%;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+}

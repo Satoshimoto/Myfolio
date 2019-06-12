@@ -1,0 +1,182 @@
+.generatePage_theme2_section {
+    width: 794px;
+    min-height: 1122px;
+    background-color: white;
+    position: absolute;
+    top: 230px;
+
+    .theme2_imgContainer {
+        width: 100%;
+        background-color: #000;
+        height: 230px;
+        display: flex;
+        justify-content: center;
+
+        div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            img {
+                background-color: #fff;
+                margin-top: 20px;
+                width: 100px;
+                height: 129px;
+                border: 3px solid rgb(157, 30, 182);
+            }
+
+            p {
+                margin-top: -8px;
+                height: 28px;
+                width: 70%;
+                color: white;
+                border: 3px solid rgb(157, 30, 182);
+                padding: 3% 5%;
+                text-align: center;
+                font-size: 20px;
+                position: relative;
+            }
+
+        }
+
+    }
+
+    .theme2_contactContainer {
+        display: flex;
+        background-color: rgb(157, 30, 182);
+        height: 70px;
+        width: 100%;
+        margin: 0px;
+
+        .phone {
+            width: 22.5%;
+            text-align: center;
+            padding-left: 2.5%;
+        }
+
+        .email {
+            width: 45%;
+            text-align: center;
+        }
+
+        .address {
+            width: 30%;
+            text-align: center;
+        }
+
+        .contact {
+
+            .circle_contactIcon {
+                margin-top: 20px;
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                text-align: center;
+                background-color: white;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+                margin-right: 15px;
+                position: relative;
+
+                i {
+                    line-height: 30px;
+                }
+
+                img {
+                    position: absolute;
+                    top: 5px;
+                    left: 4px;
+                }
+            }
+
+        }
+
+    }
+
+    .experience_header {
+        .headers {
+            margin-top: 50px;
+            margin-left: 80px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border-bottom: 3px solid black;
+            padding-bottom: 10px;
+        }
+
+        .ul_experience {
+            margin-top: 35px;
+            margin-left: 80px;
+
+            .borderBottom {
+                border-bottom: 1px solid black;
+            }
+
+
+            li {
+                width: 90%;
+                padding: 2%;
+                margin-top: 20px;
+                line-height: 25px;
+
+                .experience_spanDate {
+                    font-weight: bold;
+                    font-style: italic;
+                    margin-right: 25px;
+                    color: rgb(157, 30, 182);
+                    padding: 10px 10px 10px 0px;
+                }
+
+                .experience_span {
+                    font-weight: bold;
+                    font-style: italic;
+                    display: inline-block;
+                    margin-right: 30px;
+                    color: rgb(157, 30, 182);
+                    margin-bottom: 0px;
+
+                    span {
+                        font-weight: normal;
+                        font-style: normal;
+                        color: black;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+
+        }
+
+        .half_with_elements {
+            display: flex;
+            flex-wrap: wrap;
+            padding-bottom: 100px;
+
+            .half_element {
+                width: 45%;
+
+            }
+        }
+
+    }
+
+    .clausule {
+        width: 80%;
+        position: absolute;
+        margin-top: 50px;
+        bottom: 0%;
+        padding: 0% 10%;
+        background-color: rgb(157, 30, 182);
+        border-right: 1px solid rgb(157, 30, 182);
+
+    }
+
+}
+
+@media only screen and (max-width: 794px) {
+    .generatePage_theme2_section {
+        overflow-x: auto;
+    }
+}
